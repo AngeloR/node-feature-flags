@@ -1,0 +1,17 @@
+{
+  "name": "node-feature-flags",
+  "version": "0.0.1",
+  "description": "a distributed feature flag system",
+  "main": "index.js",
+  "scripts": {
+      "test-watch": "./node_modules/.bin/_mocha test/*-test.js"
+  },
+  "author": "Angelo R <xangelo@gmail.com>",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "kad": "^1.5.18"
+  },
+  "devDependencies": {
+    "mocha": "^3.1.0"
+  }
+}
